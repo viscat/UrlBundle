@@ -1,0 +1,24 @@
+{
+    "name": "trovit/url-symfony2-bundle",
+    "license": "propietary",
+    "type": "project",
+    "description": "Symfony2 Bundle to handle urls",
+    "autoload": {
+        "psr-0": {
+            "": ""
+        }
+    },
+
+    "require": {
+        "php": "5.5.*",
+        "symfony/framework-bundle": "2.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*",
+        "phpunit/php-invoker": "*",
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable"
+}
