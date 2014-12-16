@@ -1,0 +1,3 @@
+kolekti_url_homepage:
+    path:     /urlTesting
+    defaults: { _controller: KolektiUrlBundle:index }
