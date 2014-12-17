@@ -1,14 +1,21 @@
 {
-    "name": "trovit/url-symfony2-bundle",
+    "name": "parsing-corner/url-symfony2-bundle",
     "license": "propietary",
-    "type": "project",
+    "type": "bundle",
+    "homepage": "http://www.trovit.com",
     "description": "Symfony2 Bundle to handle urls",
+    "keywords": ["symfony2","bundle","url"],
     "autoload": {
         "psr-0": {
             "": ""
         }
     },
-
+    "authors": [
+        {
+            "name": "Parsing Corner",
+            "email": "parsingcorner@trovit.com"
+        }
+    ],
     "require": {
         "php": "5.5.*",
         "symfony/framework-bundle": "2.3.*"
