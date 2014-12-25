@@ -8,9 +8,9 @@ services:
          arguments: [%parseUrlTld.values%]
 
 parameters:
-     kolekti_url_bundle.url.entity.class: Kolekti\UrlBundle\Entity\Url
-     urlHandler.class: Kolekti\UrlBundle\Model\urlHandler  
-     parseUrlTld.class: Kolekti\UrlBundle\Model\parseUrl  
+     url_bundle.url.entity.class: Parsingcorner\UrlBundle\Entity\Url
+     urlHandler.class: Parsingcorner\UrlBundle\Model\urlHandler
+     parseUrlTld.class: Parsingcorner\UrlBundle\Model\parseUrl
      parseUrlTld.values:
                  0.bg:
                  1.bg:

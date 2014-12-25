@@ -1,8 +1,8 @@
 <?php
 
-namespace Kolekti\UrlBundle\Tests\Mocks;
+namespace ParsingCorner\UrlBundle\Tests\Mocks;
 
-use Kolekti\UrlBundle\Entity\Url;
+use ParsingCorner\UrlBundle\Entity\Url;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

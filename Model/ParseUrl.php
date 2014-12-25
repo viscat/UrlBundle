@@ -1,8 +1,8 @@
 <?php
 
-namespace Kolekti\UrlBundle\Model;
+namespace Parsingcorner\UrlBundle\Model;
 
-use Kolekti\UrlBundle\Entity\Url;
+use Parsingcorner\UrlBundle\Entity\Url;
 
 class ParseUrl{
 

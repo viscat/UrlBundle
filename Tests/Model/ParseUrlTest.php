@@ -1,11 +1,11 @@
 <?php
 
-namespace Kolekti\UrlBundle\Tests\Model;
+namespace Parsingcorner\UrlBundle\Tests\Model;
 
-use Kolekti\UrlBundle\Entity\Url;
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
+use Parsingcorner\UrlBundle\Entity\Url;
 
-class ParseUrlTest extends WebTestCase
+
+class ParseUrlTest extends IntegrationWebTestCase
 {      
     /**
      * @var Url 

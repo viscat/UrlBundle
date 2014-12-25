@@ -1,9 +1,9 @@
 <?php
 
-namespace Kolekti\UrlBundle\Model;
+namespace Parsingcorner\UrlBundle\Model;
 
-use Kolekti\UrlBundle\Entity\Url;
-use Kolekti\UrlBundle\Model\ParseUrl;
+use Parsingcorner\UrlBundle\Entity\Url;
+use Parsingcorner\UrlBundle\Model\ParseUrl;
 
 class UrlHandler
 {     

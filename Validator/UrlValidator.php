@@ -1,8 +1,8 @@
 <?php
 
-namespace Kolekti\UrlBundle\Validator;
+namespace Parsingcorner\UrlBundle\Validator;
 
-use Kolekti\UrlBundle\Entity\Url;
+use Parsingcorner\UrlBundle\Entity\Url;
 use Symfony\Component\Validator\ExecutionContextInterface;
 
 final class UrlValidator {

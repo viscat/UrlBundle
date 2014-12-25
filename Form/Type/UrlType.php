@@ -1,13 +1,13 @@
 <?php
 
-namespace Kolekti\UrlBundle\Form\Type;
+namespace Parsingcorner\UrlBundle\Form\Type;
  
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 use Symfony\Component\Form\FormInterface;
 
-use Kolekti\UrlBundle\Entity\Url;
+use Parsingcorner\UrlBundle\Entity\Url;
  
 class UrlType extends AbstractType
 {
@@ -44,7 +44,7 @@ class UrlType extends AbstractType
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
-            'data_class' => 'Kolekti\UrlBundle\Entity\Url',     
+            'data_class' => 'Parsingcorner\UrlBundle\Entity\Url',
             'empty_data' => function (FormInterface $form) {
                                 return new Url($form->get('url')->getData());
                             },

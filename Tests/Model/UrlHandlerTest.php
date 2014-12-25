@@ -1,10 +1,9 @@
 <?php
 
-namespace Kolekti\UrlBundle\Tests\Model;
+namespace Parsingcorner\UrlBundle\Tests\Model;
 
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class urlHandlerTest extends WebTestCase
+class UrlHandlerTest extends IntegrationWebTestCase
 {          
     /**
      * @var UrlHandler 
@@ -15,9 +14,9 @@ class urlHandlerTest extends WebTestCase
      * Set up the obj for every test
      */
     protected function setUp()
-    {        
-        $client = static::createClient();         
-        $this->_urlHandler = $client->getContainer()->get('urlHandler');        
+    {
+        $client = static::createClient();
+        $this->_urlHandler = $client->getContainer()->get('urlHandler');
     }
 
     /**

@@ -1,0 +1,7 @@
+Parsingcorner\UrlBundle\Entity\Url:
+    constraints:
+        - Callback: [validateUrl]
+    properties:
+        _url:
+            - NotBlank: ~
+            - Type: string

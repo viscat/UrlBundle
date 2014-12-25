@@ -1,10 +1,10 @@
 <?php
 
-namespace Kolekti\UrlBundle\Entity;
+namespace Parsingcorner\UrlBundle\Entity;
 
-use Kolekti\AttributeValidationBundle\Model\AttributeValidator;
+use Parsingcorner\AttributeValidationBundle\Model\AttributeValidator;
 use Symfony\Component\Validator\ExecutionContextInterface;
-use Kolekti\UrlBundle\Validator\UrlValidator;
+use Parsingcorner\UrlBundle\Validator\UrlValidator;
 
 class Url
 {
@@ -56,6 +56,8 @@ class Url
      * @var string 
      */
     private $_searchInGoogle;
+
+    private $_attributeValidator;
     
     /**
      * @todo private $_parameters that will include all the url parameters
@@ -70,7 +72,8 @@ class Url
         $this->_setCleanHost($this->getUrl());
         $this->_setDomainParts($this->getCleanHost());
         $this->_setSearchInGoogle($url);
-        AttributeValidator::validateAttributes($this); 
+        $this->_attributeValidator = AttributeValidator::getInstance(__DIR__);
+        $this->_attributeValidator->validateAttributes($this);
     }
 
     /**
@@ -214,7 +217,7 @@ class Url
      * Set _searchInGoogle
      * 
      * @param type $url
-     * @return \Kolekti\UrlBundle\Entity\Url
+     * @return \Parsingcorner\UrlBundle\Entity\Url
      */
     private function _setSearchInGoogle($url)
     {

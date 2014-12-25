@@ -1,10 +1,10 @@
 <?php
 
-namespace Kolekti\UrlBundle\Tests\Form\Type;
+namespace ParsingCorner\UrlBundle\Tests\Form\Type;
 
 use Symfony\Component\Form\Test\TypeTestCase;
-use Kolekti\UrlBundle\Form\Type\UrlType;
-use Kolekti\UrlBundle\Entity\Url;
+use Parsingcorner\UrlBundle\Form\Type\UrlType;
+use Parsingcorner\UrlBundle\Entity\Url;
 
 class UrlTypeTest extends TypeTestCase
 {      
