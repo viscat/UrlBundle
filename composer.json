@@ -27,7 +27,7 @@
         "symfony/framework-bundle": "2.6.*",
         "symfony/validator": "2.6.*",
         "symfony/form": "2.6.*",
-        "parsingcorner/attribute-validation-symfony2-bundle": "@dev"
+        "parsingcorner/attribute-validation-symfony2-bundle": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.*",
